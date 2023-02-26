@@ -7,7 +7,7 @@ def log_entry(title, description):
     now = datetime.datetime.now()
 
     # Open the log file in append mode
-    # Edit the filename
+    # Edit the filename or file path
     with open("EDIT_ME.txt", "a") as log_file:
         # Write the entry to the file
         log_file.write(f"[{now}] {title}\n")
